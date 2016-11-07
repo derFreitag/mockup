@@ -9,6 +9,9 @@ New:
 
 Fixes:
 
+- Fixes issue when HTML escaping select2 values. Now removing HTML completely
+  and leave the input unescaped. [petschki]
+
 - Escape input into select2 widget
   [vangheem]
 
