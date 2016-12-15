@@ -13,6 +13,9 @@ Incompatibilities:
 
 New:
 
+- Change default sort option in livesearch pattern.
+  [rodfersou]
+
 - Show expired label in folder contents for expired attributes
   [vangheem]
 
@@ -26,7 +29,7 @@ New:
 
     - Let "browse" mode start from current path.
 
-    - Immediately open select2 results when clicking on "Browse" or "Search".
+    - Immediately open select2 results when clicking on "Browse" or "Search" or browsing somewhere.
 
     - Show only selectable items in "search" mode, if defined.
 
@@ -46,6 +49,9 @@ New:
 
     - Adapt TinyMCE pattern to related item changes and remove now obsolete selection and result templates.
 
+    - Calculate all paths relative to the ``rootPath``, so that breadcrumbs navigation and favorites do not show paths outside the rootPath.
+
+    - For results and selected items with images, add a line break after the image.
   [thet]
 
 
@@ -86,10 +92,26 @@ New:
 - Add srcset attribute to image modal
   [didrix]
 
+- Upgrade TinyMCE to 4.4.3
+  [ebrehault]
+
+- Add select2 result class based on value of option so it can be styled
+  [vangheem]
+
 Fixes:
+
+- Make ``pat-tooltip`` useable by it's own by including the necessary less files and reuse that one in other patterns.
+  Allow configuration of ``placement`` parameter.
+  [thet]
 
 - Update outdated links in Learn.md
   [staeff]
+
+- Use github fork of grunt-sed and remove unused task.
+  [gforcada]
+
+- Fixes issue when HTML escaping select2 values. Now removing HTML completely and leave the input unescaped.
+  [petschki]
 
 
 2.3.0 (2016-08-19)
