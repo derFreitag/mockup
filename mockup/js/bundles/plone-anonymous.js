@@ -5,8 +5,6 @@ define([
 
   'mockup-patterns-select2',
   'mockup-patterns-pickadate',
-  'mockup-patterns-relateditems',
-  'mockup-patterns-querystring',
   'mockup-patterns-tinymce',
 
   'mockup-patterns-autotoc',
