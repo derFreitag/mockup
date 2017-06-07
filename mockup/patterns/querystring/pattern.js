@@ -277,10 +277,14 @@ define([
     },
     createValue: function(index, value) {
       var self = this,
-          widget = self.indexes[index].operators[self.$operator.val()].widget,
+          widget,
           $wrapper = $('<div/>')
             .addClass(self.options.classValueName)
             .appendTo(self.$wrapper);
+
+      if (typeof index !== 'undefined') {
+        widget = self.indexes[index].operators[self.$operator.val()].widget;
+      }
 
       self.removeValue();
 
