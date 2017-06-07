@@ -193,6 +193,7 @@ define([
       return [hours,mins];
     },
     init: function() {
+      console.log('hi there debug debug');
       var self = this,
         value = self.$el.val().split(' '),
         dateValue = value[0] || '',
