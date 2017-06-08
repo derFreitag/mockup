@@ -83,8 +83,9 @@ define([
 
       activeColumns: null,
       _default_activeColumns: [
-        'ModificationDate',
-        'EffectiveDate',
+        'effective',
+        'expiration',
+        'Type',
         'review_state'
       ],
 
