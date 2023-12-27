@@ -12,7 +12,7 @@ import "@patternslib/patternslib/src/pat/datetime-picker/datetime-picker";
 import "@patternslib/patternslib/src/pat/display-time/display-time";
 import { Pattern as ValidationPattern } from "@patternslib/patternslib/src/pat/validation/validation"; // Also loads the Pattern itself.
 import { parser as tooltip_parser } from "@patternslib/patternslib/src/pat/tooltip/tooltip";
-import "@patternslib/pat-code-editor/src/code-editor";
+// import "@patternslib/pat-code-editor/src/code-editor";
 import "@patternslib/patternslib/src/pat/inject/inject";
 import "@patternslib/patternslib/src/pat/depends/depends";
 
@@ -41,8 +41,8 @@ import "./pat/search/search";
 import "./pat/select2/select2";
 import "./pat/sortable/sortable";
 import "./pat/structure/structure";
-import "./pat/textareamimetypeselector/textareamimetypeselector";
-import "./pat/tinymce/tinymce";
+// import "./pat/textareamimetypeselector/textareamimetypeselector";
+//import "./pat/tinymce/tinymce";
 import "./pat/toggle/toggle";
 import "./pat/toolbar/toolbar";
 import "./pat/tree/tree";
